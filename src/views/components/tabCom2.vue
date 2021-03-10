@@ -1,5 +1,5 @@
 <template>
-  <div class="tab_class1_sy">
+  <div class="tab_class2_sy">
     <div class="tab_ul">
       <div
         class="tab_li"
@@ -12,16 +12,16 @@
       </div>
     </div>
     <div class="tab_body">
-      <div class="hang" v-for="(item, index) in dataList9" :key="index">
+      <div class="hang" v-for="(item, index) in dataList7" :key="index">
         <div class="tab_left shengluehao">
           <div
-            class="iconfont"
+            class="iconfont icon-yuandianzhong"
             :class="icon ? icon : ''"
             :style="{ color: iconColor }"
           ></div>
           <div class="shengluehao">{{ item.title }}</div>
         </div>
-        <div class="tab_right">{{ item.time }}</div>
+        <!-- <div class="tab_right">{{ item.time }}</div> -->
       </div>
     </div>
   </div>
@@ -56,8 +56,9 @@ export default {
     return {};
   },
   computed:{
-      dataList9(){
-          return this.dataList.slice(0,9)
+      dataList7(){
+        return this.dataList.slice(0,7)
+        // return  _.take(this.dataList, 7)
       }
   },
   methods: {
@@ -69,14 +70,15 @@ export default {
 </script>
 
 <style scoped lang="stylus">
-.tab_class1_sy {
+.tab_class2_sy {
   width: 100%;
 
   .tab_ul {
     display: flex;
     background-color: #edf1fa;
     height: 35px;
-    border-bottom: 2px solid #1178c1;
+    padding-left 1px;
+    
 
     .tab_li {
       width: 78px;
@@ -85,21 +87,23 @@ export default {
       font-size: 15px;
       text-align: center;
       cursor: pointer;
-
+      border-top 2px solid transparent;
       &.active {
-        background-color: #1178c1;
-        color: #fff;
+        background-color:#fff ;
+        color: #1178c1;
+        border-top 2px solid #1178c1;
       }
     }
   }
 
   .tab_body {
+    padding-top:6px;
     .hang {
       display: flex;
-      padding-top: 9px;
+      padding: 4px 0;
       font-size: 15px;
       cursor: pointer;
-
+      border-bottom 1px solid #f0f0f0;
       .iconfont {
         font-size: 12px;
         padding-right: 4px;

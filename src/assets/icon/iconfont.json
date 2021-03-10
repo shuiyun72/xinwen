@@ -6,6 +6,34 @@
   "description": "新闻",
   "glyphs": [
     {
+      "icon_id": "681204",
+      "name": "圆点小",
+      "font_class": "yuandianxiao",
+      "unicode": "e757",
+      "unicode_decimal": 59223
+    },
+    {
+      "icon_id": "681206",
+      "name": "圆点中",
+      "font_class": "yuandianzhong",
+      "unicode": "e758",
+      "unicode_decimal": 59224
+    },
+    {
+      "icon_id": "9472099",
+      "name": "圆形选中",
+      "font_class": "yuanxingxuanzhong",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    },
+    {
+      "icon_id": "16893310",
+      "name": "圆酒杯",
+      "font_class": "yuanjiubei",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
       "icon_id": "5387592",
       "name": "箭头_页面_向右",
       "font_class": "jiantou_yemian_xiangyou",
