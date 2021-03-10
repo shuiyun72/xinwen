@@ -1,0 +1,107 @@
+{
+  "id": "2409035",
+  "name": "xinwen",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "新闻",
+  "glyphs": [
+    {
+      "icon_id": "5387592",
+      "name": "箭头_页面_向右",
+      "font_class": "jiantou_yemian_xiangyou",
+      "unicode": "eb0b",
+      "unicode_decimal": 60171
+    },
+    {
+      "icon_id": "12095312",
+      "name": "双右箭头",
+      "font_class": "shuangyoujiantou",
+      "unicode": "e65d",
+      "unicode_decimal": 58973
+    },
+    {
+      "icon_id": "18028220",
+      "name": "右指箭头1",
+      "font_class": "youzhijiantou1",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "19986570",
+      "name": "箭头-双右",
+      "font_class": "jiantou-shuangyou",
+      "unicode": "e7c4",
+      "unicode_decimal": 59332
+    },
+    {
+      "icon_id": "781562",
+      "name": "三角上",
+      "font_class": "sanjiaotop",
+      "unicode": "e6b4",
+      "unicode_decimal": 59060
+    },
+    {
+      "icon_id": "846626",
+      "name": "三角",
+      "font_class": "triangle-right",
+      "unicode": "e67d",
+      "unicode_decimal": 59005
+    },
+    {
+      "icon_id": "846629",
+      "name": "三角",
+      "font_class": "triangle-left",
+      "unicode": "e67e",
+      "unicode_decimal": 59006
+    },
+    {
+      "icon_id": "1280552",
+      "name": "文档",
+      "font_class": "wendang",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    },
+    {
+      "icon_id": "5121507",
+      "name": "三角下",
+      "font_class": "sanjiaoxia",
+      "unicode": "e644",
+      "unicode_decimal": 58948
+    },
+    {
+      "icon_id": "14435183",
+      "name": "文档",
+      "font_class": "wendang1",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    },
+    {
+      "icon_id": "14787702",
+      "name": "简介",
+      "font_class": "jianjie",
+      "unicode": "e82b",
+      "unicode_decimal": 59435
+    },
+    {
+      "icon_id": "15306146",
+      "name": "文档",
+      "font_class": "wendang2",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "15568797",
+      "name": "动态",
+      "font_class": "dongtai-miaobian",
+      "unicode": "e691",
+      "unicode_decimal": 59025
+    },
+    {
+      "icon_id": "19494217",
+      "name": "电 话",
+      "font_class": "dianhua",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    }
+  ]
+}

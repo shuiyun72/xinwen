@@ -116,7 +116,7 @@
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="stylus">
 	.el-menu--popup{
-		padding 2px 0;
+		padding 0px 0 0;
 	}
 	.el-menu--popup-bottom-start{
 		margin-top 0;
@@ -128,7 +128,7 @@
 	.el-menu--horizontal .el-menu .el-menu-item, .el-menu--horizontal .el-menu .el-submenu__title{
 		background-color :#007CE0;
 		color #fff;
-		margin-bottom :2px;
+		margin-top :2px;
 	}
 	.header{
 		.el-menu{
