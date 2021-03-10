@@ -5,7 +5,8 @@ import store from './store'
 import "@styles/index.js"
 import ElementUI from 'element-ui'
 import "element-ui/lib/theme-chalk/index.css"
-
+import _ from 'lodash'
+Vue.prototype._ = _
 
 
 Vue.use(ElementUI)
