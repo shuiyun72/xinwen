@@ -1,5 +1,5 @@
 <template>
-  <div class="work">
+  <div class="huangye">
     <Header></Header>
     <Footer></Footer>
   </div>

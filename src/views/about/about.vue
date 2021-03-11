@@ -1,7 +1,7 @@
 <template>
   <div class="about">
     <Header></Header>
-    <div class="about_body">
+    <div class="about_body minh389">
       <div class="side_nav_sy">
         <div
           class="li"
@@ -14,7 +14,7 @@
           <div class="side_text">{{ item.title }}</div>
         </div>
       </div>
-      <div class="connect_right">
+      <div class="connect_right"> 
         <div class="right_about">
           <div class="t_name">{{ positionText }}</div>
           <div class="turn_to_list_sy">
@@ -106,14 +106,17 @@
         </div>
       </div>
     </div>
+    <Footer></Footer>
   </div>
 </template>
 
 <script>
 import Header from "@components/header";
+import Footer from "@components/footer";
 export default {
   components: {
     Header,
+    Footer,
   },
   data() {
     return {
@@ -128,6 +131,12 @@ export default {
   },
   beforeMount() {
     this.sideNavSel = this.$route.query.sel;
+  },
+  watch: {
+    $route(to,from) {
+      console.log(from)
+      this.sideNavSel = Number(to.query.sel);
+    }
   },
   computed: {
     positionText() {
@@ -172,7 +181,7 @@ export default {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-
+  
   .connect_right {
     width: 730px;
     float: right;

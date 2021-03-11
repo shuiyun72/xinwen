@@ -54,10 +54,10 @@
           </el-submenu>
           <el-submenu index="8">
             <template slot="title">行业信息话</template>
-            <el-menu-item index="2-1">解决方案</el-menu-item>
-            <el-menu-item index="2-2">相关软件</el-menu-item>
-            <el-menu-item index="2-3">新技术应用</el-menu-item>
-            <el-menu-item index="2-3">信息安全</el-menu-item>
+            <el-menu-item index="8-1">解决方案</el-menu-item>
+            <el-menu-item index="8-2">相关软件</el-menu-item>
+            <el-menu-item index="8-3">新技术应用</el-menu-item>
+            <el-menu-item index="8-4">信息安全</el-menu-item>
           </el-submenu>
           <el-menu-item index="9">建设黄页</el-menu-item>
           <el-menu-item index="10">求职招聘</el-menu-item>
@@ -120,6 +120,60 @@ export default {
       if (key == "4-4") {
         this.$router.push({ path: "/message", query: { sel: 4 } });
       }
+      if (key == "5-1") {
+        this.$router.push({ path: "/dangjiangongzuo", query: { sel: 0 } });
+      }
+      if (key == "5-2") {
+        this.$router.push({ path: "/dangjiangongzuo", query: { sel: 1 } });
+      }
+      if (key == "5-3") {
+        this.$router.push({ path: "/dangjiangongzuo", query: { sel: 2 } });
+      }
+      if (key == "6-1") {
+        this.$router.push({ path: "/wenjiantongzhi", query: { sel: 0 } });
+      }
+      if (key == "6-2") {
+        this.$router.push({ path: "/wenjiantongzhi", query: { sel: 1 } });
+      }
+      if (key == "6-3") {
+        this.$router.push({ path: "/wenjiantongzhi", query: { sel: 2 } });
+      }
+      if (key == "7-1") {
+        this.$router.push({ path: "/jiaoyupeixun", query: { sel: 0 } });
+      }
+      if (key == "7-2") {
+        this.$router.push({ path: "/jiaoyupeixun", query: { sel: 1 } });
+      }
+      if (key == "7-3") {
+        this.$router.push({ path: "/jiaoyupeixun", query: { sel: 2 } });
+      }
+      if (key == "8-1") {
+        this.$router.push({ path: "/hangyexinxi", query: { sel: 0 } });
+      }
+      if (key == "8-2") {
+        this.$router.push({ path: "/hangyexinxi", query: { sel: 1 } });
+      }
+      if (key == "8-3") {
+        this.$router.push({ path: "/hangyexinxi", query: { sel: 2 } });
+      }
+      if (key == "8-4") {
+        this.$router.push({ path: "/hangyexinxi", query: { sel: 2 } });
+      }
+      if (key == "9") {
+        this.$router.push({ path: "/huangye" });
+      }
+      if (key == "10") {
+        this.$router.push({ path: "/qiuzhi" });
+      }
+      if (key == "11") {
+        this.$router.push({ path: "/yingyong" });
+      }
+      if (key == "12") {
+        this.$router.push({ path: "/huiyuan" });
+      }
+      if (key == "13") {
+        this.$router.push({ path: "/about", query: { sel: 3 } });
+      }
     },
     ccc() {
       console.log("ccc");
@@ -147,6 +201,11 @@ export default {
   background-color: #007CE0;
   color: #fff;
   margin-top: 2px;
+}
+.el-menu--horizontal .el-menu .el-menu-item.is-active,
+.el-menu--horizontal .el-menu .el-menu-item:hover{
+  background-color #2aa8f3
+  color #fff
 }
 
 .header {

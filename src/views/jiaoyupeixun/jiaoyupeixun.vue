@@ -88,12 +88,11 @@ export default {
   },
   data() {
     return {
-      titleC:"协会工作",
+      titleC:"教育培训",
       sideNav: [
-        { title: "协会文件", url: "", img: "icon-jianjie" },
-        { title: "转发文件", url: "", img: "icon-wendang1" },
-        { title: "协会动态", url: "", img: "icon-dongtai-miaobian" },
-        { title: "行业培训", url: "", img: "icon-dianhua" },
+        { title: "政策咨询", url: "", img: "icon-jianjie" },
+        { title: "培训报名", url: "", img: "icon-wendang1" },
+        { title: "培训动态", url: "", img: "icon-dongtai-miaobian" }
       ],
       sideNavSel: 0,
       dataList: [

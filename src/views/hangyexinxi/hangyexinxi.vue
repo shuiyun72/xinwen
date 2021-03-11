@@ -88,12 +88,12 @@ export default {
   },
   data() {
     return {
-      titleC:"协会工作",
+      titleC:"行业信息话",
       sideNav: [
-        { title: "协会文件", url: "", img: "icon-jianjie" },
-        { title: "转发文件", url: "", img: "icon-wendang1" },
-        { title: "协会动态", url: "", img: "icon-dongtai-miaobian" },
-        { title: "行业培训", url: "", img: "icon-dianhua" },
+        { title: "解决方案", url: "", img: "icon-jianjie" },
+        { title: "相关软件", url: "", img: "icon-wendang1" },
+        { title: "新技术应用", url: "", img: "icon-wendang1" },
+        { title: "信息安全", url: "", img: "icon-dongtai-miaobian" }
       ],
       sideNavSel: 0,
       dataList: [

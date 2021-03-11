@@ -110,7 +110,7 @@ export default {
       }
 
       .tab_left {
-        flex: 1;
+        // flex: 1;
         display: inline-flex;
         align-items: center;
         width: 90%;
